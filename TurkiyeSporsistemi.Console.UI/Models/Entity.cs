@@ -1,8 +1,15 @@
 ﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace TurkiyeSporsistemi.Console.UI.Models;
-
-public class Entity <TId>
+namespace TurkiyeSporsistemi.ConsoleUI.Models
 {
-    public int Id { get; set; }
+    public class Entity<TId>
+    {
+
+        public TId Id { get; set; }
+    }
 }
